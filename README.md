@@ -82,3 +82,5 @@ _Simpler version using PyPI package and CLI coming soon!_
 ```bash
 poetry run pip install -r requirements.txt
 ```
+
+-You also require a OPENI AI KEY which you can configure in the .env and an AlphaVantage Key to work with this
