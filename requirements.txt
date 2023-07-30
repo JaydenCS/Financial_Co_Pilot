@@ -1,0 +1,5 @@
+duckduckgo-search
+pytube
+youtube-transcript-api
+langchain
+wikipedia
