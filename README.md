@@ -57,8 +57,8 @@ _Coming soon:_
 Clone the repository and install the dependencies using [Poetry](https://python-poetry.org/) (you might have to [install Poetry](https://python-poetry.org/docs/#installation) first).
 
 ```bash
-git clone https://github.com/cofactoryai/textbase
-cd textbase
+git clone https://github.com/JaydenCS/Financial_Co_Pilot
+cd Financial_Co_Pilot	
 poetry install
 ```
 
@@ -75,7 +75,10 @@ poetry run python textbase/textbase_cli.py test main.py
 Now go to [http://localhost:4000](http://localhost:4000) and start chatting with your bot! The bot will automatically reload when you change the code.
 
 _Simpler version using PyPI package and CLI coming soon!_
+## Other Requirements 
 
-## Contributions
+- In order to work with full functionality please install requirements.txt on poetry by running the following command
 
-Contributions are welcome! Please open an issue or a pull request.
+```bash
+poetry run pip install -r requirements.txt
+```
